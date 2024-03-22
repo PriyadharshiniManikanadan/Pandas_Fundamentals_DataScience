@@ -1,5 +1,5 @@
 # Pandas_Fundamentals_DataScience
-## IDE - Pycharm
+## Python 
 
 #### Pandas are an essential tool in the toolkit of any data scientist. 
 
