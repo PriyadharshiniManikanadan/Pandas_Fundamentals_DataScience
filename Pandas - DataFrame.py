@@ -1,6 +1,4 @@
 # DataFrame
-
-
 """
 Data sets in Pandas are usually multi-dimensional tables, called DataFrames.
 
