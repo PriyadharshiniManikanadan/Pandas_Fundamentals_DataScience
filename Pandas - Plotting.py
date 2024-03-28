@@ -7,18 +7,15 @@ We can use Pyplot, a submodule of the Matplotlib library to visualize the diagra
 """
 # Import pyplot from Matplotlib and visualize our DataFrame
 
-
 # import matplotlib
 
 import matplotlib
-
 
 print(matplotlib.__version__)
 
 # import sys
 # import matplotlib
 # matplotlib.use('Agg')
-
 
 # Import pyplot from Matplotlib and visualize our DataFrame
 
@@ -58,11 +55,8 @@ plt.show()
  #       In the previous example, we learned that the correlation between "Duration" and "Calories" was 0.922721,
 #  and we concluded with the fact that higher duration means more calories burned.
 
-
-
  # Let's create another scatterplot, where there is a bad relationship between the columns,
  # like "Duration" and "Maxpulse", with the correlation 0.009403:
-
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -70,7 +64,6 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("dataset\\corr_data.csv")
 df.plot(kind = 'scatter', x = 'Duration', y = 'Maxpulse')
 plt.show()
-
 
 # Histogram
 
