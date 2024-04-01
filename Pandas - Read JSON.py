@@ -7,8 +7,6 @@ JSON is plain text, but has the format of an object, and is well known in the wo
 
 In our examples we will be using a JSON file called 'data.json'.
 """
-
-
 # Load the JSON file into a DataFrame
 
 # use to_string() to print the entire DataFrame
@@ -34,7 +32,6 @@ JSON objects have the same format as Python dictionaries.
 
 If your JSON code is not in a file, but in a Python Dictionary, you can load it into a DataFrame directly
 """
-
 import pandas as pd
 
 data = {
