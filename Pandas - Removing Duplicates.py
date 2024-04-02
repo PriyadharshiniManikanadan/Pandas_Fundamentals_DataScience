@@ -15,14 +15,11 @@ import pandas as pd
 df = pd.read_csv("dataset\\testdata.csv")
 print(df.to_string())
 
-
 """Returns True for every row that is a duplicate, othwerwise False"""
 
-
-import pandas as pd
+ importpandas as pd
 df = pd.read_csv("dataset\\testdata.csv")
 print(df.duplicated())
-
 
 # Removing Duplicates:
 
